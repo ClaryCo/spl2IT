@@ -1,2 +1,6 @@
 print("hello world!")
 print("Hello","World","Internet","School")
+print("Hello"+"World"+"Internet"+"School")
+print("Hello" + "World",28,32)
+print("Hello" + "World" + str(28) + str(32))
+print(28+32)

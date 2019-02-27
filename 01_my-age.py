@@ -8,6 +8,9 @@
 #Next year you will 20
 
 input("Wie heißt du")
-name = input("Clarisa")
-input("Wie alt bist du")
-alter = input
+alter = input("Wie alt bist du")
+alter = int(alter)
+
+stalkeralter = alter + 1
+print ("Next year you will be" , stalkeralter)
+
