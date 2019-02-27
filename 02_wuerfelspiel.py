@@ -28,20 +28,25 @@
 	# print("unspitze")
 # else:
 	# print("nicht super")
+
+frage = input ("Auf welche Zahl setzt du")
+frage = int (frage)
+
+i = input("Wie oft soll gewprfelt werden")
+i = int (i)
+counter = 0;
+
+for nummer in range(0,i):
+	import random
+	random.seed()
+	zahl = random.radint(1,6)
+	print(zahl(
+	if(frage == zahl):
 	
-wieoftwür = input ("Wie oft soll es gewürfelt werden?")
-zahl = input ("Auf welche Zahl tippst du?")
-import random
-random.seed()
-
-
-for ausgeben in range(0,wieoftwür):
-	zufall = random.radint(1,6)
-
-	if(zahl == zufall):
-		print("gewonnen")
-	else 
-		print("niederlage")
-	
+		counter = counter + 1
+		print("Gewonnen!Die Zahl", frage "kommt", counter,"mal vor")
+		
+	else:
+		print("verloren")
 
 
